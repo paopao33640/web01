@@ -1,0 +1,66 @@
+/* 整體頁面設定 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: "Microsoft JhengHei", sans-serif;
+}
+
+/* 內容容器 */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* 個人照片 */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+    object-fit: cover;
+}
+
+/* 標題 */
+h1 {
+    color: #333;
+    margin-top: 15px;
+}
+
+h2 {
+    color: #666;
+    font-weight: normal;
+}
+
+/* 區塊 */
+section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+h3 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+/* 清單 */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* 文字 */
+p {
+    line-height: 1.8;
+    color: #444;
+}
