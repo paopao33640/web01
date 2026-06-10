@@ -1,66 +1,47 @@
-/* 整體頁面設定 */
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    font-family: "Microsoft JhengHei", sans-serif;
-}
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介紹</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-/* 內容容器 */
-.container {
-    width: 80%;
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    text-align: center;
-}
+    <div class="container">
+        <img src="https://via.placeholder.com/180" alt="個人照片">
 
-/* 個人照片 */
-.profile-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid #4CAF50;
-    object-fit: cover;
-}
+        <h1>王小明</h1>
+        <p class="subtitle">資訊管理系學生</p>
 
-/* 標題 */
-h1 {
-    color: #333;
-    margin-top: 15px;
-}
+        <hr>
 
-h2 {
-    color: #666;
-    font-weight: normal;
-}
+        <section>
+            <h2>關於我</h2>
+            <p>
+                大家好，我是王小明，目前就讀資訊管理系。
+                平時喜歡接觸新技術，學習網頁設計與程式開發，
+                希望未來能夠成為一位優秀的軟體工程師。
+            </p>
+        </section>
 
-/* 區塊 */
-section {
-    margin-top: 30px;
-    text-align: left;
-}
+        <section>
+            <h2>興趣</h2>
+            <ul>
+                <li>閱讀</li>
+                <li>程式設計</li>
+                <li>運動</li>
+                <li>旅遊</li>
+            </ul>
+        </section>
 
-h3 {
-    color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 5px;
-}
+        <section>
+            <h2>聯絡方式</h2>
+            <p>Email：example@gmail.com</p>
+            <p>電話：0912-345-678</p>
+        </section>
 
-/* 清單 */
-ul {
-    padding-left: 20px;
-}
+    </div>
 
-li {
-    margin: 8px 0;
-}
-
-/* 文字 */
-p {
-    line-height: 1.8;
-    color: #444;
-}
+</body>
+</html>
